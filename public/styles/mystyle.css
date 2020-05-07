@@ -1,11 +1,14 @@
+body {
+  background-color: lightskyblue;
+  font-size: 32px;
+}
+
 header {
   display: flex;
+  margin: 1rem;
+  justify-content: space-between;
 }
 
 .heart {
   height: 50px;
-  margin: 0 1rem;
-}
-.heart:hover {
-  fill: tomato;
 }
