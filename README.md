@@ -25,3 +25,6 @@ I've figured out a few things. still need to get a better workflow and folder st
 
 # Things to figure out!
 1 how to add words to my spell dictionary (ie. github inkscape?)
+
+
+troube with git - grrrr.... may 7
