@@ -1,20 +1,26 @@
 doctype html
 html(lang='en')
-    head
-        meta(charse='utf-8')
-        title The Rusty Express
-        meta(name='description', content='The Rusty Express')
-        meta(name='author', content='home')
-        link(href="reset.css" type='text/css' rel='stylesheet')
-        link(href="my.css" type='text/css' rel='stylesheet')
-
+    include head.pug
     body
-        h1 Hello World
-        p Finally, I've gotten some text on the page
-        ul
-            li Add style (reset)
-            li Fix this refresh
-            li refresh is fine. styles not linked
+        .container
+            include header.pug
+            p Originally I tried css reset but that was too extreme. Then I switched to css remedy. 
+            p Much better results
+            ul  
+                li macros in vim
+                li other semantic markup
+                li aria attributes in pug
+                li pug pug pug !!!! 
+            
+            aside
+                h3 link list
+                ul 
+                    li 
+                        a(href="https://meyerweb.com/eric/tools/css/reset/" target="new") reset
+                    li
+                        a(href="https://github.com/jensimmons/cssremedy" target="new") remedy
+
+
         script(src='my.js')
 
         

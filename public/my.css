@@ -1,0 +1,11 @@
+header {
+  display: flex;
+}
+
+.heart {
+  height: 50px;
+  margin: 0 1rem;
+}
+.heart:hover {
+  fill: tomato;
+}
