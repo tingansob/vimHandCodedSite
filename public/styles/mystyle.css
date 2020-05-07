@@ -1,5 +1,5 @@
 body {
-  background-color: lightskyblue;
+  background-color: tomato;
   font-size: 32px;
 }
 
@@ -7,8 +7,10 @@ header {
   display: flex;
   margin: 1rem;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
 }
 
 .heart {
-  height: 50px;
+  height: 100px;
 }
