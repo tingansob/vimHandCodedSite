@@ -1,30 +1,17 @@
 doctype html
-html(lang='en')
-    include head.pug
+html(lang='en-US')
+    include includes/head.pug
     body
         .container
-            include header.pug
-            h1 Welcome Kevin 
-            h2 Let's see if you can read this
-            p Originally I tried css reset but that was too extreme. Then I switched to css remedy. 
-            p Much better results
+            include includes/header.pug
+            h1 Welcome Home Kevin br
+            hr
             ul  
                 li macros in vim
                 li other semantic markup
                 li aria attributes in pug
                 li pug pug pug !!!! 
-            
-            aside
-                h3 link list
-                p testing
-                ul 
-                    li 
-                        a(href="https://meyerweb.com/eric/tools/css/reset/" target="new") reset
-                    li
-                        a(href="https://github.com/jensimmons/cssremedy" target="new") remedy
-                        
+            hr
+            p this should be under a horizontal rule
 
-            include svg.pug
-
-        
-
+            include includes/svg.pug
